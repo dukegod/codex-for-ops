@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Codex 相关（避免把本地配置提交）
+.codex/auth.json
+.codex/sessions/
+.codex/logs/
+.codex/state_*.sqlite
+.codex/logs_*.sqlite
+
+# 用户临时文件
+*.tmp
+*.bak
+*~
+.~*
+
+# 系统文件
+.DS_Store
+desktop.ini
+
+# Node（如果有）
+node_modules/
+package-lock.json
+
+# 大文件
+*.zip
+*.tar.gz
