@@ -1,0 +1,30 @@
+docs/03-进阶技巧/02-自动化任务.md
+  s_f25eb828d3f363::t_a5c09024f22361 61-72,229-231,240-241
+docs/03-进阶技巧/07-sites生成内部工具.md
+  s_f25eb828d3f363::t_577b896c956a14 1-178
+docs/03-进阶技巧/04-多agent并行.md
+  s_f25eb828d3f363::t_82dab1fc69e859 153-170,320-322,328,332-333
+docs/03-进阶技巧/01-skills.md
+  s_f25eb828d3f363::t_96e286dce40b84 64-77,295
+  s_f25eb828d3f363::t_d355f6527dbc34 294
+  s_f25eb828d3f363::t_a6599af0f421e9 161,163,274
+README.md
+  s_f25eb828d3f363::t_602033b1ded8a8 48
+  s_f25eb828d3f363::t_27e65c1e7b1f07 149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "47b3b86617c0fe88990e07cb0480324c6d8fa887",
+  "prompts": {},
+  "sessions": {
+    "s_f25eb828d3f363": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f6569-2848-7e01-bc4d-ba1ebf38417d",
+        "model": "gpt-5.5"
+      },
+      "human_author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
