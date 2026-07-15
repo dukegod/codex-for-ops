@@ -45,6 +45,7 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
 - [多 Agent 并行：同时跑多个调研任务](docs/03-进阶技巧/04-多agent并行.md)
 - [Codex 项目结构详解：解构 + 配置 + 优化](docs/03-进阶技巧/05-codex项目结构.md)
 - [Codex 与 Claude Code 项目结构对比](docs/03-进阶技巧/06-codex与claude-code对比.md)
+- [Sites：把运营成果做成内部工具](docs/03-进阶技巧/07-sites生成内部工具.md)
 
 ### 发布社区篇（把方法论发布到小红书）
 - [为什么要发布到社区](docs/06-发布社区/01-为什么要发布到社区.md)
@@ -145,4 +146,4 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
 
 ---
 
-> 本文档由 Mavis 整理 · 持续更新中 · 最后更新：2026-06
+> 本文档由 Mavis 整理 · 持续更新中 · 最后更新：2026-07-15
