@@ -25,6 +25,7 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
 6. [GitHub 是什么：给运营的入门科普](docs/00-入门/06-github是什么.md)
 7. [把项目提交到 GitHub：运营零代码版](docs/00-入门/07-提交到github.md)
 8. [GitHub 在 Codex 中的使用：让 Codex 直接读你的仓库](docs/00-入门/08-github在codex中的使用.md)
+9. [桌面端新功能速通（2026 GA 版）](docs/00-入门/09-桌面端新功能速通.md)
 
 ### 调研场景篇
 - [竞品分析](docs/01-调研场景/01-竞品分析.md)
@@ -46,6 +47,7 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
 - [Codex 项目结构详解：解构 + 配置 + 优化](docs/03-进阶技巧/05-codex项目结构.md)
 - [Codex 与 Claude Code 项目结构对比](docs/03-进阶技巧/06-codex与claude-code对比.md)
 - [Sites：把运营成果做成内部工具](docs/03-进阶技巧/07-sites生成内部工具.md)
+- [分析规范模式：把个人方法论做成 Skill](docs/03-进阶技巧/08-分析规范模式-把个人方法论做成Skill.md)
 
 ### 发布社区篇（把方法论发布到小红书）
 - [为什么要发布到社区](docs/06-发布社区/01-为什么要发布到社区.md)
@@ -146,4 +148,4 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
 
 ---
 
-> 本文档由 Mavis 整理 · 持续更新中 · 最后更新：2026-07-15
+> 本文档由 Mavis 整理 · 持续更新中 · 最后更新：2026-08-06
