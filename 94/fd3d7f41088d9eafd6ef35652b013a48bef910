@@ -1,0 +1,16 @@
+README.md
+  h_a427b9af6cd304 28,50,151
+docs/00-入门/09-桌面端新功能速通.md
+  h_a427b9af6cd304 1-198
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "94fd3d7f41088d9eafd6ef35652b013a48bef910",
+  "prompts": {},
+  "humans": {
+    "h_a427b9af6cd304": {
+      "author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
