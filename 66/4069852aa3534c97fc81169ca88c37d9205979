@@ -1,0 +1,18 @@
+README.md
+  h_a427b9af6cd304 24-29,52,153
+docs/00-入门/03-界面导览.md
+  h_a427b9af6cd304 66,70-88,247-248,252-253
+docs/00-入门/04-基础操作.md
+  h_a427b9af6cd304 46-70,309-310,315-316
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "664069852aa3534c97fc81169ca88c37d9205979",
+  "prompts": {},
+  "humans": {
+    "h_a427b9af6cd304": {
+      "author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
