@@ -73,7 +73,7 @@ export default defineConfig({
         text: '更多',
         items: [
           { text: '安全红线', link: '/04-安全红线/01-数据安全' },
-          { text: 'Prompt 模板库', link: '/05-模板库/' },
+          { text: 'Prompt 模板库', link: '/05-模板库/README' },
           { text: '发布社区', link: '/06-发布社区/01-为什么要发布到社区' },
           { text: '知识库建设', link: '/07-知识库建设/01-把碎片沉淀成Wiki' },
           { text: 'FAQ', link: '/faq' },
