@@ -1,0 +1,27 @@
+README.md
+  s_f25eb828d3f363::t_55f9b013c4a013 148
+docs/00-入门/03-界面导览.md
+  s_f25eb828d3f363::t_55f9b013c4a013 165,253
+docs/00-入门/04-基础操作.md
+  s_f25eb828d3f363::t_55f9b013c4a013 142,316
+CONTRIBUTING.md
+  s_f25eb828d3f363::t_55f9b013c4a013 53,89
+docs/00-入门/05-你的第一个任务.md
+  s_f25eb828d3f363::t_55f9b013c4a013 163
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "2e8a52a97751b63966cab8a95e46fc22b906fea6",
+  "prompts": {},
+  "sessions": {
+    "s_f25eb828d3f363": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f6569-2848-7e01-bc4d-ba1ebf38417d",
+        "model": "gpt-5.5"
+      },
+      "human_author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
