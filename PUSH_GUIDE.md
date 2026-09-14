@@ -33,7 +33,7 @@ codex-for-ops/
 │   ├── 04-安全红线/               # 3 个章节
 │   ├── 05-模板库/                 # Prompt 模板库
 │   ├── 06-发布社区/               # 发布到小红书（含 Skill 模板库）
-│   └── 07-知识库建设/             # LLM + Wiki + Obsidian + Codex
+│   └── 07-知识库建设/             # Codex + Obsidian + Wiki 飞轮(单章)
 └── .github/
     └── ISSUE_TEMPLATE/            # Issue 模板
 ```

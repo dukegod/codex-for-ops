@@ -65,13 +65,8 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
   - [竞品分析 Skill 模板](docs/06-发布社区/templates/competitor-analysis-skill.md)
   - [会议纪要 Skill 模板](docs/06-发布社区/templates/meeting-summary-skill.md)
 
-### 知识库建设篇（LLM + Wiki + Obsidian + Codex）
-- [什么是 LLM + Wiki 知识库（k神方法论）](docs/07-知识库建设/01-什么是LLM+wiki知识库.md)
-- [llm-wiki-skill 安装与使用](docs/07-知识库建设/02-llm-wiki-skill安装与使用.md)
-- [Obsidian 介绍](docs/07-知识库建设/03-Obsidian介绍.md)
-- [Obsidian 与 Codex 的 5 种整合方式](docs/07-知识库建设/04-obsidian与codex的整合.md)
-- [从 0 搭建个人知识库](docs/07-知识库建设/05-从0搭建个人知识库.md)
-- [知识库的日常维护与进化](docs/07-知识库建设/06-日常维护与进化.md)
+### 知识库建设篇（Codex + Obsidian + Wiki 飞轮）
+- [把碎片沉淀成 Wiki：Codex + Obsidian 的飞轮](docs/07-知识库建设/01-把碎片沉淀成Wiki.md)
 
 ### 安全红线篇
 - [不能喂什么数据给 Codex](docs/04-安全红线/01-数据安全.md)

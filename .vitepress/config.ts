@@ -75,7 +75,7 @@ export default defineConfig({
           { text: '安全红线', link: '/04-安全红线/01-数据安全' },
           { text: 'Prompt 模板库', link: '/05-模板库/' },
           { text: '发布社区', link: '/06-发布社区/01-为什么要发布到社区' },
-          { text: '知识库建设', link: '/07-知识库建设/01-什么是LLM+wiki知识库' },
+          { text: '知识库建设', link: '/07-知识库建设/01-把碎片沉淀成Wiki' },
           { text: 'FAQ', link: '/faq' },
         ],
       },
@@ -214,15 +214,9 @@ export default defineConfig({
       // --------------------------------------------------------------------
       '/07-知识库建设/': [
         {
-          text: '知识库建设',
+          text: '知识库建设（Codex + Obsidian + Wiki 飞轮）',
           items: [
-            { text: '什么是 LLM + Wiki 知识库（k神方法论）', link: '/07-知识库建设/01-什么是LLM+wiki知识库' },
-            { text: 'llm-wiki-skill 安装与使用', link: '/07-知识库建设/02-llm-wiki-skill安装与使用' },
-            { text: 'Obsidian 介绍', link: '/07-知识库建设/03-Obsidian介绍' },
-            { text: 'Obsidian 与 Codex 的 5 种整合方式', link: '/07-知识库建设/04-obsidian与codex的整合' },
-            { text: '从 0 搭建个人知识库', link: '/07-知识库建设/05-从0搭建个人知识库' },
-            { text: '知识库的日常维护与进化', link: '/07-知识库建设/06-日常维护与进化' },
-            { text: '总览', link: '/07-知识库建设/README' },
+            { text: '把碎片沉淀成 Wiki：Codex + Obsidian 的飞轮', link: '/07-知识库建设/01-把碎片沉淀成Wiki' },
           ],
         },
       ],

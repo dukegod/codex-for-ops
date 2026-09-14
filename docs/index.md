@@ -55,7 +55,7 @@ features:
   - icon: 🧠
     title: 知识库建设
     details: LLM + Wiki + Obsidian + Codex——搭建自己的个人知识库，让 Codex 真正记住你。
-    link: /07-知识库建设/01-什么是LLM+wiki知识库
+    link: /07-知识库建设/01-把碎片沉淀成Wiki
     linkText: 搭知识库 →
 ---
 
