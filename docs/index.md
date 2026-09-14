@@ -84,9 +84,9 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
 ## 内容维护
 
 - 发现内容错误？提 [Issue](https://github.com/dukegod/codex-for-ops/issues)
-- 想加新案例？提 [PR](CONTRIBUTING.md)
-- 想了解贡献规范？看 [CONTENT_GUIDELINES.md](CONTENT_GUIDELINES.md)
+- 想加新案例？提 [PR](../CONTRIBUTING.md)
+- 想了解贡献规范？看 [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md)
 
 ## 声明
 
-本项目采用 [MIT 协议](LICENSE)。Codex 是 OpenAI 的产品，本手册与 OpenAI 无官方关联。
+本项目采用 [MIT 协议](../LICENSE)。Codex 是 OpenAI 的产品，本手册与 OpenAI 无官方关联。
