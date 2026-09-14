@@ -58,6 +58,9 @@ exclude = [
     # 但 lychee 解析成 codex-for-ops/00-入门/... (少 docs/).
     # 实际是正确的相对路径, VitePress 渲染 OK, 这里 exclude 跳过假死链。
     "^file://.*codex-for-ops/00-%E5%85%A5%E9%97%A8/02-%E5%AE%89%E8%A3%85%E4%B8%8E%E7%99%BB%E5%BD%95\\.md$",
+    # 同样 bug: docs/06-发布社区/templates/*.md 写 ../../../04-安全红线/...
+    # lychee 解析成 codex-for-ops/04-安全红线/... (少 docs/),exclude 跳过。
+    "^file://.*codex-for-ops/04-%E5%AE%89%E5%85%A8%E7%BA%A2%E7%BA%BF/",
 ]
 
 # 缓存（加速重复运行）

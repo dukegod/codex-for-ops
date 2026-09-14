@@ -20,6 +20,10 @@ export default defineConfig({
   description: '面向运营团队的 Codex 桌面端使用指南 · 从入门到进阶',
   base,
 
+  // VitePress 默认 srcDir='.'(项目根),会把 docs/00-入门/... 渲染到 /docs/00-入门/...
+  // 显式设为 docs/ 后,URL 去掉 docs/ 前缀,与 sidebar/nav 配置一致。
+  srcDir: 'docs/',
+
   cleanUrls: true,
   lastUpdated: true,
   metaChunk: true,
