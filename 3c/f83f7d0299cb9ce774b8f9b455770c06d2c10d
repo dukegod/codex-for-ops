@@ -1,0 +1,50 @@
+.vitepress/config.ts
+  h_a427b9af6cd304 50-52
+CONTRIBUTING.md
+  h_a427b9af6cd304 24,33,77-78,89
+FAQ.md
+  h_a427b9af6cd304 103,123,149-150
+docs/00-入门/01-为什么用-codex.md
+  h_a427b9af6cd304 63
+docs/00-入门/02-安装与登录.md
+  h_a427b9af6cd304 145,172
+docs/00-入门/03-界面导览.md
+  h_a427b9af6cd304 140,165,246
+docs/00-入门/04-基础操作.md
+  h_a427b9af6cd304 142,301
+docs/00-入门/06-安全模式.md
+  h_a427b9af6cd304 316-317
+docs/00-入门/08-提交到github.md
+  h_a427b9af6cd304 285
+docs/00-入门/09-github在codex中的使用.md
+  h_a427b9af6cd304 331-332
+docs/03-进阶技巧/05-codex项目结构.md
+  h_a427b9af6cd304 221
+docs/05-模板库/README.md
+  h_a427b9af6cd304 14-15
+docs/05-模板库/效率类/周报生成.md
+  h_a427b9af6cd304 62
+docs/06-发布社区/05-完整案例.md
+  h_a427b9af6cd304 395
+docs/06-发布社区/templates/meeting-summary-skill.md
+  h_a427b9af6cd304 22,194
+docs/07-知识库建设/04-obsidian与codex的整合.md
+  h_a427b9af6cd304 405
+docs/07-知识库建设/05-从0搭建个人知识库.md
+  h_a427b9af6cd304 402
+docs/07-知识库建设/06-日常维护与进化.md
+  h_a427b9af6cd304 349
+lychee.toml
+  h_a427b9af6cd304 56-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3cf83f7d0299cb9ce774b8f9b455770c06d2c10d",
+  "prompts": {},
+  "humans": {
+    "h_a427b9af6cd304": {
+      "author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
