@@ -1,0 +1,20 @@
+.gitignore
+  h_a427b9af6cd304 39-48
+.obsidian/community-plugins.json
+  h_a427b9af6cd304 1-4
+.obsidian/core-plugins.json
+  h_a427b9af6cd304 1-33
+docs/07-知识库建设/obsidian-setup.md
+  h_a427b9af6cd304 1-81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3b7d9dd766144a6d82cdb2c0a847c16475c4ce7c",
+  "prompts": {},
+  "humans": {
+    "h_a427b9af6cd304": {
+      "author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
