@@ -1,0 +1,18 @@
+.vitepress/config.ts
+  h_a427b9af6cd304 23-26
+docs/06-发布社区/templates/meeting-summary-skill.md
+  h_a427b9af6cd304 22,194
+lychee.toml
+  h_a427b9af6cd304 61-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4cd40a07942fed4fab1716181933697aaa7ea693",
+  "prompts": {},
+  "humans": {
+    "h_a427b9af6cd304": {
+      "author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
