@@ -1,0 +1,19 @@
+docs/index.md
+  s_7838ae8e8cbaf9::t_9d68bb2e233a1d 58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d6522569d1fadbb10e46557a303f8af4ef18d9c4",
+  "prompts": {},
+  "sessions": {
+    "s_7838ae8e8cbaf9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a09df2-6392-7c93-8ced-07d27a373c97",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
