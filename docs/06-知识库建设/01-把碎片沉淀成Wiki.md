@@ -230,6 +230,7 @@ concepts/
 - 升级开始了 → 跑 Step 1-6 一步步来
 - 卡住了 → 看 [FAQ](https://github.com/dukegod/codex-for-ops/blob/main/FAQ.md) 或 [异常处理](../04-安全红线/03-异常处理.md)
 - 想推给团队 → 先自己跑 3 个月,再 1-2 个同事一起试,不要强推
+- 想把仓库当 vault 打开 → 看 [附录：Obsidian vault 初始化](02-obsidian-vault初始化.md)
 
 ---
 

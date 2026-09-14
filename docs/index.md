@@ -45,12 +45,12 @@ features:
   - icon: 🌐
     title: 发布社区
     details: 把你的方法论整合成 Skill，发布到小红书——把你的工作变成可分享的资产。
-    link: /06-发布社区/01-为什么要发布到社区
+    link: /05-发布社区/01-为什么要发布到社区
     linkText: 怎么发布 →
   - icon: 🧠
     title: 知识库建设
     details: LLM + Wiki + Obsidian + Codex——搭建自己的个人知识库，让 Codex 真正记住你。
-    link: /07-知识库建设/01-把碎片沉淀成Wiki
+    link: /06-知识库建设/01-把碎片沉淀成Wiki
     linkText: 搭知识库 →
 ---
 

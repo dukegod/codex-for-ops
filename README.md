@@ -54,24 +54,25 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
 - [分析规范模式：把个人方法论做成 Skill](docs/03-进阶技巧/08-分析规范模式-把个人方法论做成Skill.md)
 - [多源信息归总模式：把行业趋势股票头条热点自动归类](docs/03-进阶技巧/09-多源信息归总模式-把行业趋势股票头条热点自动归类.md)
 
-### 发布社区篇（把方法论发布到小红书）
-- [为什么要发布到社区](docs/06-发布社区/01-为什么要发布到社区.md)
-- [资源整合：从散乱到结构化](docs/06-发布社区/02-资源整合.md)
-- [创建 Skill：把方法打包成可复用](docs/06-发布社区/03-创建skill.md)
-- [发布到小红书](docs/06-发布社区/04-发布到小红书.md)
-- [完整案例：把周报技能发布出去](docs/06-发布社区/05-完整案例.md)
-- [Skill 模板库](docs/06-发布社区/templates/)
-  - [周报生成 Skill 模板](docs/06-发布社区/templates/weekly-report-skill.md)
-  - [竞品分析 Skill 模板](docs/06-发布社区/templates/competitor-analysis-skill.md)
-  - [会议纪要 Skill 模板](docs/06-发布社区/templates/meeting-summary-skill.md)
-
-### 知识库建设篇（Codex + Obsidian + Wiki 飞轮）
-- [把碎片沉淀成 Wiki：Codex + Obsidian 的飞轮](docs/07-知识库建设/01-把碎片沉淀成Wiki.md)
-
 ### 安全红线篇
 - [不能喂什么数据给 Codex](docs/04-安全红线/01-数据安全.md)
 - [权限与审批](docs/04-安全红线/02-权限审批.md)
 - [异常处理](docs/04-安全红线/03-异常处理.md)
+
+### 发布社区篇（把方法论发布到小红书）
+- [为什么要发布到社区](docs/05-发布社区/01-为什么要发布到社区.md)
+- [资源整合：从散乱到结构化](docs/05-发布社区/02-资源整合.md)
+- [创建 Skill：把方法打包成可复用](docs/05-发布社区/03-创建skill.md)
+- [发布到小红书](docs/05-发布社区/04-发布到小红书.md)
+- [完整案例：把周报技能发布出去](docs/05-发布社区/05-完整案例.md)
+- [Skill 模板库](docs/05-发布社区/templates/)
+  - [周报生成 Skill 模板](docs/05-发布社区/templates/weekly-report-skill.md)
+  - [竞品分析 Skill 模板](docs/05-发布社区/templates/competitor-analysis-skill.md)
+  - [会议纪要 Skill 模板](docs/05-发布社区/templates/meeting-summary-skill.md)
+
+### 知识库建设篇（Codex + Obsidian + Wiki 飞轮）
+- [把碎片沉淀成 Wiki：Codex + Obsidian 的飞轮](docs/06-知识库建设/01-把碎片沉淀成Wiki.md)
+- [附录：Obsidian vault 初始化](docs/06-知识库建设/02-obsidian-vault初始化.md)
 
 ### FAQ（常见问题，最后看）
 - [常见问题 FAQ](FAQ.md)

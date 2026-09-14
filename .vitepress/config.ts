@@ -7,7 +7,7 @@ import { defineConfig } from 'vitepress'
 // 部署 CI：  .github/workflows/deploy-pages.yml
 // 死链 CI：  .github/workflows/lychee.yml
 //
-// 目录结构：docs/00-入门 ~ docs/07-知识库建设（见 README.md）
+// 目录结构：docs/00-入门 ~ docs/06-知识库建设（见 README.md）
 // 写作规范：CONTENT_GUIDELINES.md
 // ============================================================================
 
@@ -73,8 +73,8 @@ export default defineConfig({
         text: '更多',
         items: [
           { text: '安全红线', link: '/04-安全红线/01-数据安全' },
-          { text: '发布社区', link: '/06-发布社区/01-为什么要发布到社区' },
-          { text: '知识库建设', link: '/07-知识库建设/01-把碎片沉淀成Wiki' },
+          { text: '发布社区', link: '/05-发布社区/01-为什么要发布到社区' },
+          { text: '知识库建设', link: '/06-知识库建设/01-把碎片沉淀成Wiki' },
           { text: 'FAQ', link: '/faq' },
         ],
       },
@@ -169,25 +169,25 @@ export default defineConfig({
       // --------------------------------------------------------------------
       // 发布社区
       // --------------------------------------------------------------------
-      '/06-发布社区/': [
+      '/05-发布社区/': [
         {
           text: '发布社区',
           items: [
-            { text: '为什么要发布到社区', link: '/06-发布社区/01-为什么要发布到社区' },
-            { text: '资源整合：从散乱到结构化', link: '/06-发布社区/02-资源整合' },
-            { text: '创建 Skill：把方法打包成可复用', link: '/06-发布社区/03-创建skill' },
-            { text: '发布到小红书', link: '/06-发布社区/04-发布到小红书' },
-            { text: '完整案例：把周报技能发布出去', link: '/06-发布社区/05-完整案例' },
+            { text: '为什么要发布到社区', link: '/05-发布社区/01-为什么要发布到社区' },
+            { text: '资源整合：从散乱到结构化', link: '/05-发布社区/02-资源整合' },
+            { text: '创建 Skill：把方法打包成可复用', link: '/05-发布社区/03-创建skill' },
+            { text: '发布到小红书', link: '/05-发布社区/04-发布到小红书' },
+            { text: '完整案例：把周报技能发布出去', link: '/05-发布社区/05-完整案例' },
             {
               text: 'Skill 模板库',
               collapsed: true,
               items: [
-                { text: '周报生成 Skill 模板', link: '/06-发布社区/templates/weekly-report-skill' },
-                { text: '竞品分析 Skill 模板', link: '/06-发布社区/templates/competitor-analysis-skill' },
-                { text: '会议纪要 Skill 模板', link: '/06-发布社区/templates/meeting-summary-skill' },
+                { text: '周报生成 Skill 模板', link: '/05-发布社区/templates/weekly-report-skill' },
+                { text: '竞品分析 Skill 模板', link: '/05-发布社区/templates/competitor-analysis-skill' },
+                { text: '会议纪要 Skill 模板', link: '/05-发布社区/templates/meeting-summary-skill' },
               ],
             },
-            { text: '总览', link: '/06-发布社区/README' },
+            { text: '总览', link: '/05-发布社区/README' },
           ],
         },
       ],
@@ -195,11 +195,12 @@ export default defineConfig({
       // --------------------------------------------------------------------
       // 知识库建设
       // --------------------------------------------------------------------
-      '/07-知识库建设/': [
+      '/06-知识库建设/': [
         {
           text: '知识库建设（Codex + Obsidian + Wiki 飞轮）',
           items: [
-            { text: '把碎片沉淀成 Wiki：Codex + Obsidian 的飞轮', link: '/07-知识库建设/01-把碎片沉淀成Wiki' },
+            { text: '把碎片沉淀成 Wiki：Codex + Obsidian 的飞轮', link: '/06-知识库建设/01-把碎片沉淀成Wiki' },
+            { text: '附录：Obsidian vault 初始化', link: '/06-知识库建设/02-obsidian-vault初始化' },
           ],
         },
       ],

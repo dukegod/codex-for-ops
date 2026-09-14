@@ -26,14 +26,13 @@ codex-for-ops/
 ├── FAQ.md                         # FAQ 总章（仓库根目录，单文件）
 ├── .gitignore
 ├── docs/
-│   ├── 00-入门/                   # 8 个章节
+│   ├── 00-入门/                   # 10 个章节
 │   ├── 01-调研场景/               # 4 个章节
 │   ├── 02-数据处理场景/           # 4 个章节
-│   ├── 03-进阶技巧/               # 6 个章节
+│   ├── 03-进阶技巧/               # 9 个章节
 │   ├── 04-安全红线/               # 3 个章节
-│   ├── 05-模板库/                 # Prompt 模板库
-│   ├── 06-发布社区/               # 发布到小红书（含 Skill 模板库）
-│   └── 07-知识库建设/             # Codex + Obsidian + Wiki 飞轮(单章)
+│   ├── 05-发布社区/               # 发布到小红书（含 Skill 模板库）
+│   └── 06-知识库建设/             # Codex + Obsidian + Wiki 飞轮(单章)
 └── .github/
     └── ISSUE_TEMPLATE/            # Issue 模板
 ```
@@ -70,12 +69,14 @@ git config user.email "你的邮箱"
 git add .
 git commit -m "docs: 初始化 Codex 运营手册
 
-- 入门篇 5 章：为什么用、装与登录、界面、基础操作、安全模式
+- 入门篇 10 章：为什么用、装与登录、界面、基础操作、安全模式、GitHub、新功能速通
 - 调研场景 4 章：竞品分析、行业研究、资料汇总、会议纪要
 - 数据处理 4 章：Excel 清洗、批量处理、表格分析、可视化
-- 进阶技巧 4 章：Skills、自动化、项目记忆、多 Agent
+- 进阶技巧 9 章：Skills、自动化、项目记忆、多 Agent、Sites 等
 - 安全红线 3 章：数据安全、权限审批、异常处理
-- FAQ 30 问 + Prompt 模板库"
+- 发布社区 5 章 + Skill 模板库
+- 知识库建设 1 章：Codex + Obsidian + Wiki 飞轮
+- FAQ 总章"
 
 # 关联远程仓库（替换成你的用户名/仓库名）
 git remote add origin https://github.com/你的用户名/codex-for-ops.git
