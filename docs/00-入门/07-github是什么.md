@@ -1,4 +1,4 @@
-# 6. GitHub 是什么：给运营的入门科普
+# 7. GitHub 是什么：给运营的入门科普
 
 > 完全没用过 GitHub？这篇就是为你准备的
 
@@ -146,8 +146,8 @@ Issue #42：把竞品分析模板升级到 V2 版
 
 ## 🚀 下一步
 
-- 概念懂了 → [7. 把项目提交到 GitHub](07-提交到github.md)
-- 想看 Codex 跟 GitHub 怎么配合 → [8. GitHub 在 Codex 中的使用](08-github在codex中的使用.md)
+- 概念懂了 → [8. 把项目提交到 GitHub](08-提交到github.md)
+- 想看 Codex 跟 GitHub 怎么配合 → [9. GitHub 在 Codex 中的使用](09-github在codex中的使用.md)
 
 ---
 

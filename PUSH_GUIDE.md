@@ -4,7 +4,7 @@
 
 ## 👥 读者分流
 
-- **运营同事**（不熟命令行、想用 GitHub 网页/GitHub Desktop 上传）→ 看 [入门篇第 7 章：把项目提交到 GitHub 运营零代码版](docs/00-入门/07-提交到github.md)
+- **运营同事**（不熟命令行、想用 GitHub 网页/GitHub Desktop 上传）→ 看 [入门篇第 8 章：把项目提交到 GitHub 运营零代码版](docs/00-入门/08-提交到github.md)
 - **开发者**（熟悉 git 命令）→ 继续看本文档
 
 ---

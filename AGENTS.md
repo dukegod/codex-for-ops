@@ -70,7 +70,7 @@ codex-for-ops/
 
 如果接手这个项目发现**还没有初始化 git / 还没推 GitHub**，按 [PUSH_GUIDE.md](PUSH_GUIDE.md) 走。两种方式二选一：
 
-- **运营同事**：GitHub 网页 + GitHub Desktop（看 `docs/00-入门/07-提交到github.md`）
+- **运营同事**：GitHub 网页 + GitHub Desktop（看 `docs/00-入门/08-提交到github.md`）
 - **开发者**：GitHub 网页创建空仓库 + 本地 `git init && push`（看 PUSH_GUIDE 的方式 A）
 - **装了 `gh` CLI**：直接 `gh repo create ... --push`（方式 B）
 

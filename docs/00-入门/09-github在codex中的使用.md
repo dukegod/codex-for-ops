@@ -1,4 +1,4 @@
-# 8. GitHub 在 Codex 中的使用：让 Codex 直接读你的仓库
+# 9. GitHub 在 Codex 中的使用：让 Codex 直接读你的仓库
 
 > 让 Codex 跟 GitHub 联动：读仓库、提 Issue、Codex 自动跑任务
 
