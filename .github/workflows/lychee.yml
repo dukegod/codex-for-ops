@@ -34,6 +34,20 @@ jobs:
             lychee-${{ github.ref }}-
             lychee-
 
+      # lychee 0.24 把 inputs 当 regex / 内部 glob 解析，跟 shell **/*.md 不兼容。
+      # 参考 ai-handbook 方案：先 find 列文件清单到临时文件，再 --files-from 喂 lychee。
+      - name: Build .md file list
+        run: |
+          find . \
+            -name "*.md" \
+            -not -path "./node_modules/*" \
+            -not -path "./.vitepress/*" \
+            -not -path "./.lycheecache/*" \
+            -not -path "./public/*" \
+            -not -path "./assets/*" \
+            > /tmp/lychee-md-files.txt
+          echo "Found $(wc -l < /tmp/lychee-md-files.txt) .md files"
+
       - name: Run Lychee
         id: lychee
         uses: lycheeverse/lychee-action@v2
@@ -41,11 +55,7 @@ jobs:
           args: >-
             --config lychee.toml
             --root-dir ${{ github.workspace }}
-            "**/*.md"
-            "!**/node_modules/**"
-            "!**/.vitepress/**"
-            "!**/public/**"
-            "!**/assets/**"
+            --files-from /tmp/lychee-md-files.txt
           fail: true
           output: detailed
           jobSummary: true
