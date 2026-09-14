@@ -1,0 +1,19 @@
+docs/03-进阶技巧/09-多源信息归总模式-把行业趋势股票头条热点自动归类.md
+  s_62d9d593b24743::t_abc07179e4ea9e 1-251
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "eda7077bedaa277cd55969a94aca264ede6da36c",
+  "prompts": {},
+  "sessions": {
+    "s_62d9d593b24743": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a032cc-2064-7b61-baa3-5a799031c017",
+        "model": "gpt-5.5"
+      },
+      "human_author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
