@@ -1,0 +1,14 @@
+.github/workflows/lychee.yml
+  h_a427b9af6cd304 49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e51a23820bd2d4cbfa0501b668a2c32c7354924b",
+  "prompts": {},
+  "humans": {
+    "h_a427b9af6cd304": {
+      "author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
