@@ -1,0 +1,41 @@
+docs/06-知识库建设/01-把碎片沉淀成Wiki.md
+  s_40fcd4483a0562::t_4ba470efcc6290 233
+docs/index.md
+  s_40fcd4483a0562::t_ab1424c9a61989 48,53
+README.md
+  s_40fcd4483a0562::t_6fd1973065d093 62-74
+  s_40fcd4483a0562::t_80cd7fa75d191e 75
+  s_40fcd4483a0562::t_9893c31fa0f263 76
+.vitepress/config.ts
+  s_40fcd4483a0562::t_cdfbd638ed8a6e 172,176-180,185-187,190,198,202
+  s_40fcd4483a0562::t_4e7f48dcc6b293 10
+  s_40fcd4483a0562::t_86a76711e0ddd1 203
+  s_40fcd4483a0562::t_fcc3ab921e1fe2 76-77
+docs/00-入门/10-桌面端新功能速通.md
+  s_40fcd4483a0562::t_976408ddf2cc19 147
+PUSH_GUIDE.md
+  s_40fcd4483a0562::t_1d9aedd8525ae4 72,75,77-79
+  s_40fcd4483a0562::t_457ecbc55a0e5e 29,32,34-35
+AGENTS.md
+  s_40fcd4483a0562::t_bfd04fcab283e1 28,33-34
+  s_40fcd4483a0562::t_ad4af9c4a22701 53
+lychee.toml
+  s_40fcd4483a0562::t_6f8276a51fd9f0 57
+  s_40fcd4483a0562::t_e2d10c8740e31a 61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9be8a947f139578f810279579a0dbc31e0f760d4",
+  "prompts": {},
+  "sessions": {
+    "s_40fcd4483a0562": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "14ef7245-4737-4aff-892e-3e9877b8d533",
+        "model": "deepseek/deepseek-flash"
+      },
+      "human_author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
