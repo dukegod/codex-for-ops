@@ -42,11 +42,6 @@ features:
     details: 什么数据不能喂 / 权限怎么控 / 异常怎么处理。先读这章再用 Codex。
     link: /04-安全红线/01-数据安全
     linkText: 必读红线 →
-  - icon: 📝
-    title: Prompt 模板库
-    details: 周报 / 月报 / 数据校对……复制粘贴就能用的 Prompt 集合。
-    link: /05-模板库/
-    linkText: 看模板 →
   - icon: 🌐
     title: 发布社区
     details: 把你的方法论整合成 Skill，发布到小红书——把你的工作变成可分享的资产。

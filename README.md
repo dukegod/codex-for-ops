@@ -73,9 +73,6 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
 - [权限与审批](docs/04-安全红线/02-权限审批.md)
 - [异常处理](docs/04-安全红线/03-异常处理.md)
 
-### Prompt 模板库
-- [Prompt 模板库](docs/05-模板库/)
-
 ### FAQ（常见问题，最后看）
 - [常见问题 FAQ](FAQ.md)
 
@@ -148,4 +145,4 @@ Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用�
 
 ---
 
-> 本文档由 Mavis 整理 · 持续更新中 · 最后更新：2026-08-24
+> 本文档由 Mavis 整理 · 持续更新中 · 最后更新：2026-09-14
