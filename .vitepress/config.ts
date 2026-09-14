@@ -24,6 +24,8 @@ export default defineConfig({
   // sidebar/nav 配置保持一致(/00-入门/01-... 而不是 /docs/00-入门/...)。
   // srcExclude 排除仓库根元文档(README/AGENTS/CONTRIBUTING/CONTENT_GUIDELINES/
   // PUSH_GUIDE/FAQ),这些不进 VitePress 站点。
+  // 3 个子目录的 README.md 用 sidebar 链接直接指向 README(VitePress 渲染
+  // 为 README.html,GitHub Pages cleanUrls 自动解析 README -> README.html)。
   srcDir: 'docs/',
 
   cleanUrls: true,
@@ -172,7 +174,7 @@ export default defineConfig({
         {
           text: 'Prompt 模板库',
           items: [
-            { text: '总览', link: '/05-模板库/' },
+            { text: '总览', link: '/05-模板库/README' },
             { text: '模板格式说明', link: '/05-模板库/TEMPLATE_FORMAT' },
             { text: '效率类：周报生成', link: '/05-模板库/效率类/周报生成' },
             { text: '效率类：月报生成', link: '/05-模板库/效率类/月报生成' },
@@ -202,6 +204,7 @@ export default defineConfig({
                 { text: '会议纪要 Skill 模板', link: '/06-发布社区/templates/meeting-summary-skill' },
               ],
             },
+            { text: '总览', link: '/06-发布社区/README' },
           ],
         },
       ],
@@ -219,6 +222,7 @@ export default defineConfig({
             { text: 'Obsidian 与 Codex 的 5 种整合方式', link: '/07-知识库建设/04-obsidian与codex的整合' },
             { text: '从 0 搭建个人知识库', link: '/07-知识库建设/05-从0搭建个人知识库' },
             { text: '知识库的日常维护与进化', link: '/07-知识库建设/06-日常维护与进化' },
+            { text: '总览', link: '/07-知识库建设/README' },
           ],
         },
       ],
