@@ -1,0 +1,34 @@
+.github/workflows/deploy-pages.yml
+  h_a427b9af6cd304 1-62
+.github/workflows/lychee.yml
+  h_a427b9af6cd304 1-51
+.gitignore
+  h_a427b9af6cd304 28,32-38
+.npmrc
+  h_a427b9af6cd304 1-7
+.vitepress/config.ts
+  h_a427b9af6cd304 1-260
+AGENTS.md
+  h_a427b9af6cd304 85,125,127-128
+README.md
+  h_a427b9af6cd304 8-10
+index.md
+  h_a427b9af6cd304 1-92
+lychee.toml
+  h_a427b9af6cd304 1-77
+package.json
+  h_a427b9af6cd304 1-21
+pnpm-lock.yaml
+  h_a427b9af6cd304 1-1614
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "221c5da7a759a44ea24254bfc2bb6300d6960191",
+  "prompts": {},
+  "humans": {
+    "h_a427b9af6cd304": {
+      "author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
