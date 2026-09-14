@@ -1,0 +1,14 @@
+.vitepress/config.ts
+  h_a427b9af6cd304 76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9517217202f54db19ae8e4733a01a1e493773916",
+  "prompts": {},
+  "humans": {
+    "h_a427b9af6cd304": {
+      "author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
