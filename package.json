@@ -1,0 +1,21 @@
+{
+  "name": "codex-for-ops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Codex 桌面端运营团队实战手册 · 从入门到进阶",
+  "packageManager": "pnpm@10.28.1",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

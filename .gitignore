@@ -25,9 +25,16 @@ Thumbs.db
 .DS_Store
 desktop.ini
 
-# Node（如果有）
+# Node
 node_modules/
 package-lock.json
+
+# VitePress 站点构建产物 / 缓存
+.vitepress/dist/
+.vitepress/cache/
+
+# Lychee 死链检查缓存
+.lycheecache/
 
 # 大文件
 *.zip

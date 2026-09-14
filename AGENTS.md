@@ -82,7 +82,7 @@ codex-for-ops/
 2. **不要碰 `.codex/` 目录**（已在 .gitignore）。那是本地 Codex 的 auth / sessions / logs，泄露出去意味着你的 Codex 账号可以被别人用。
 3. **不要主动改 `CONTENT_GUIDELINES.md` 的核心规则**（写作风格、emoji 约定、敏感词清单）。要改就提 Issue 讨论，影响所有章节。
 4. **不要随意改目录的数字前缀**（`00-` `01-`）。改了会影响 README 文档目录的排序和章节之间的相对引用。
-5. **不要引入构建工具、CI、Linter、TypeScript 配置之类的"代码项目基础设施"**。这是文档仓库，加了反而是噪音。如果觉得某个环节需要自动化（比如链接检查），先提 Issue。
+5. **站点基础设施可自由调整**。`.vitepress/config.ts`、`package.json`、`pnpm-lock.yaml`、`.github/workflows/deploy-pages.yml`、`.github/workflows/lychee.yml`、`lychee.toml` 属于"站点基础设施"（VitePress 站点 + GitHub Pages 部署 + 死链 CI），维护者可自由调整，无需提 Issue。**其他**构建工具、CI、Linter、TypeScript 配置仍需先提 Issue 讨论。
 
 ## 🛠️ AI 工具的常见任务清单
 
@@ -122,6 +122,7 @@ grep -rn "docs/" README.md CONTRIBUTING.md  # 列出所有相对链接
 
 ## 📜 元信息
 
-- **最后更新**：2026-06-30
+- **最后更新**：2026-09-14
 - **维护者**：Codex for Ops 团队
 - **本文件变更**：因为本项目是教人写 AGENTS.md 的，所以这个文件本身就是范例。改之前请三思，改之后记得更新底部日期 + 在 `docs/03-进阶技巧/03-项目记忆.md` 里如果引用了具体写法，**同步更新那篇文章**。
+- **站点部署**：本仓库已接入 VitePress + GitHub Pages（`https://dukegod.github.io/codex-for-ops/`），站点配置文件见 `.vitepress/config.ts`，部署 CI 见 `.github/workflows/deploy-pages.yml`，死链检查 CI 见 `.github/workflows/lychee.yml`。

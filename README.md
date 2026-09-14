@@ -5,6 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Codex Desktop](https://img.shields.io/badge/Codex-Desktop%20App-10a37f.svg)](https://openai.com/codex/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-222.svg?logo=github)](https://dukegod.github.io/codex-for-ops/)
+
+🌐 **在线阅读**：<https://dukegod.github.io/codex-for-ops/>（VitePress 渲染版，章节左侧侧边栏 + 全文搜索）
 
 Codex 桌面端（Codex Desktop）是 OpenAI 推出的 AI 智能体桌面应用，原本是给程序员用的，但它的**「读资料、跑分析、整理文档」能力，对运营团队同样强大**。这本手册专门写给运营团队：
 

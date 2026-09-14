@@ -1,0 +1,51 @@
+# .github/workflows/lychee.yml —— CI 死链检查
+# 每个 push + 每个 PR 跑一遍 lychee，检查仓库内 Markdown 链接是否失效
+# 适配 codex-for-ops（GitHub 公共仓库）：用 lychee 官方 Docker 镜像
+
+name: Lychee Link Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# 取消进行中的同一 workflow
+concurrency:
+  group: lychee-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 缓存 lychee 运行结果（加速重复运行）
+      - name: Cache Lychee Results
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.ref }}-${{ github.sha }}
+          restore-keys: |
+            lychee-${{ github.ref }}-
+            lychee-
+
+      - name: Run Lychee
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --config lychee.toml
+            --root-dir ${{ github.workspace }}
+            "**/*.md"
+            "!**/node_modules/**"
+            "!**/.vitepress/**"
+            "!**/public/**"
+            "!**/assets/**"
+          failMode: error
+          output: detailed
+          jobSummary: true

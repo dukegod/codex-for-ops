@@ -1,0 +1,77 @@
+# lychee 死链检查配置
+# 文档：https://lychee.cli.rs/
+# 跟 ai-handbook 同源——避免 sidebar / 章节内链接错位
+
+# Verbose 模式（CI 关闭噪音）
+# lychee 0.24+ 接受：error / warn / info / debug / trace
+verbose = "warn"
+
+# Accept 状态码（数组）
+accept = [200, 203, 206, 301, 302, 303, 304, 307, 308]
+
+# 超时（秒）
+timeout = 20
+
+# 重试次数
+max_retries = 3
+
+# 重试间隔（秒）
+retry_wait_time = 2
+
+# 重定向上限
+max_redirects = 5
+
+# User-Agent
+user_agent = "Mozilla/5.0 (compatible; codex-for-ops-link-checker/1.0; +https://github.com/dukegod/codex-for-ops)"
+
+# 排除路径（正则字符串）—— 不检查生成产物
+exclude_path = [
+    "(^|/)node_modules",
+    "(^|/)\\.vitepress",
+    "(^|/)\\.lycheecache",
+]
+
+# 排除 URL（正则）—— 已知会失败 / 不需要检查
+exclude = [
+    # 本地开发链接
+    "^http://localhost",
+    "^http://127\\.0\\.0\\.1",
+    "^https://localhost",
+    # mailto 链接
+    "^mailto:",
+    # openai.com 反爬 403
+    "^https?://(www\\.)?openai\\.com",
+    # platform.openai.com 需 JS 渲染
+    "^https?://platform\\.openai\\.com",
+    # chrome 扩展商店 / firefox 附加组件 已知 false positive
+    "^https?://chromewebstore\\.google\\.com",
+    "^https?://addons\\.mozilla\\.org",
+    # npmjs 反爬 403
+    "^https?://(www\\.)?npmjs\\.com/package/",
+    # 小红书 / 飞书 / 微信生态有反爬
+    "^https?://(www\\.)?xiaohongshu\\.com",
+    "^https?://(www\\.)?feishu\\.cn",
+    "^https?://(www\\.)?larksuite\\.com",
+    "^https?://(www\\.)?weixin\\.qq\\.com",
+]
+
+# 缓存（加速重复运行）
+cache = true
+
+# 缓存有效期
+max_cache_age = "2d"
+
+# 缓存排除状态码
+cache_exclude_status = "500.."
+
+# Fallback 扩展（无扩展名链接尝试 .md）
+fallback_extensions = ["md", "html"]
+
+# 最大并发
+max_concurrency = 14
+
+# 最小主机请求间隔（避免被 ban）
+host_request_interval = "50ms"
+
+# Skip missing input files
+skip_missing = true
