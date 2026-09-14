@@ -36,6 +36,16 @@ package-lock.json
 # Lychee 死链检查缓存
 .lycheecache/
 
+# Obsidian 本地配置 —— 只保留 vault 级别配置(core-plugins.json),
+# 个人 workspace 状态(workspace.json/graph.json/app.json/appearance.json)
+# 不进 git,避免协作冲突
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/plugins/*/data.json
+
 # 大文件
 *.zip
 *.tar.gz
