@@ -46,6 +46,6 @@ jobs:
             "!**/.vitepress/**"
             "!**/public/**"
             "!**/assets/**"
-          failMode: error
+          fail: true
           output: detailed
           jobSummary: true
