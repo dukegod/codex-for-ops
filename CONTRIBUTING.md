@@ -21,7 +21,7 @@
 
 1. Fork 这个仓库
 2. 在你的 fork 里修改/添加内容
-3. 按 [内容规范](../CONTENT_GUIDELINES.md) 写
+3. 按 [内容规范](./CONTENT_GUIDELINES.md) 写
 4. 提交 PR，标题格式：
    - `[fix] 修正 xx 章节的 typo`
    - `[add] 新增 xx 场景章节`
@@ -30,7 +30,7 @@
 
 ### 3. 风格要求
 
-请**严格遵守** [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md)：
+请**严格遵守** [CONTENT_GUIDELINES.md](./CONTENT_GUIDELINES.md)：
 
 - ✅ 用「场景故事」开头
 - ✅ Prompt 给「完整可粘贴」的，不是片段
@@ -74,8 +74,8 @@ docs/
 
 如果不知道贡献什么，看这些：
 
-- [Issues](../../issues) 里 `good first issue` 标签的任务
-- [Issues](../../issues) 里 `help wanted` 标签的任务
+- [Issues](https://github.com/dukegod/codex-for-ops/issues) 里 `good first issue` 标签的任务
+- [Issues](https://github.com/dukegod/codex-for-ops/issues) 里 `help wanted` 标签的任务
 - 直接读现有章节，找可以改进的地方
 
 ## ❓ 提问
@@ -86,7 +86,7 @@ docs/
 
 ## 📜 许可
 
-你的贡献将按 [MIT 协议](../LICENSE) 发布。
+你的贡献将按 [MIT 协议](./LICENSE) 发布。
 
 ---
 

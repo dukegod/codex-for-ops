@@ -282,7 +282,7 @@ GitHub 不适合传大文件（单个文件限制 100MB）。
 ## 🚀 下一步
 
 - 上手了 → [9. GitHub 在 Codex 中的使用](09-github在codex中的使用.md)（最有价值的部分）
-- 遇到问题 → 看 [FAQ](../FAQ.md)
+- 遇到问题 → 看 [FAQ](https://github.com/dukegod/codex-for-ops/blob/main/FAQ.md)
 
 ---
 

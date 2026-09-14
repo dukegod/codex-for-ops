@@ -47,8 +47,9 @@ export default defineConfig({
     lineNumbers: false,
   },
 
-  // 仓库原本的内部链接写法不规范（缺 .md 后缀 / 引用根级被 srcExclude 排除的文件），
-  // 共 37 处。先全跳过让 build 通过，后续提 Issue 批量修。
+  // 仓库原本有少量内部链接写法问题，2026-09-14 修过大部分。
+  // 剩下的是 srcExclude 排除的根级元文档（README/AGENTS/CONTENT_GUIDELINES/CONTRIBUTING/PUSH_GUIDE/FAQ），
+  // 这些文件不出现在 VitePress 站点上，但文档里的相对链接引用它们时会被判定为死链。
   // 参考：https://vitepress.dev/reference/site-config#ignoredeadlinks
   ignoreDeadLinks: true,
 
