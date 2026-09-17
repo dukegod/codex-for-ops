@@ -134,15 +134,26 @@ export default defineConfig({
         {
           text: '进阶技巧',
           items: [
-            { text: 'Skills：把常用任务打包成可复用工作流', link: '/03-进阶技巧/01-skills' },
-            { text: '自动化任务：让 Codex 定时跑', link: '/03-进阶技巧/02-自动化任务' },
-            { text: '项目记忆（AGENTS.md）', link: '/03-进阶技巧/03-项目记忆' },
-            { text: '多 Agent 并行：同时跑多个调研任务', link: '/03-进阶技巧/04-多agent并行' },
-            { text: 'Codex 项目结构详解：解构 + 配置 + 优化', link: '/03-进阶技巧/05-codex项目结构' },
-            { text: 'Codex 与 Claude Code 项目结构对比', link: '/03-进阶技巧/06-codex与claude-code对比' },
-            { text: 'Sites：把运营成果做成内部工具', link: '/03-进阶技巧/07-sites生成内部工具' },
-            { text: '分析规范模式：把个人方法论做成 Skill', link: '/03-进阶技巧/08-分析规范模式-把个人方法论做成Skill' },
-            { text: '多源信息归总模式：把行业趋势/股票/头条/热点自动归类', link: '/03-进阶技巧/09-多源信息归总模式-把行业趋势股票头条热点自动归类' },
+            {
+              text: '核心技能',
+              items: [
+                { text: 'Skills：把常用任务打包成可复用工作流', link: '/03-进阶技巧/01-skills' },
+                { text: '项目记忆（AGENTS.md）', link: '/03-进阶技巧/03-项目记忆' },
+                { text: '自动化任务：让 Codex 定时跑', link: '/03-进阶技巧/02-自动化任务' },
+                { text: '多 Agent 并行：同时跑多个调研任务', link: '/03-进阶技巧/04-多agent并行' },
+              ],
+            },
+            {
+              text: '进阶玩法',
+              collapsed: true,
+              items: [
+                { text: 'Codex 项目结构详解：解构 + 配置 + 优化', link: '/03-进阶技巧/05-codex项目结构' },
+                { text: 'Codex 与 Claude Code 项目结构对比', link: '/03-进阶技巧/06-codex与claude-code对比' },
+                { text: 'Sites：把运营成果做成内部工具', link: '/03-进阶技巧/07-sites生成内部工具' },
+                { text: '分析规范模式：把个人方法论做成 Skill', link: '/03-进阶技巧/08-分析规范模式-把个人方法论做成Skill' },
+                { text: '多源信息归总模式：把行业趋势/股票/头条/热点自动归类', link: '/03-进阶技巧/09-多源信息归总模式-把行业趋势股票头条热点自动归类' },
+              ],
+            },
           ],
         },
       ],
