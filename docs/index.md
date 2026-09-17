@@ -12,9 +12,6 @@ hero:
     - theme: brand
       text: 从入门开始
       link: /00-入门/01-为什么用-codex
-    - theme: alt
-      text: 看完整目录
-      link: /00-入门/
 
 features:
   - icon: 🚀
