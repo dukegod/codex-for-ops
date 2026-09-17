@@ -69,15 +69,10 @@ export default defineConfig({
       { text: '调研场景', link: '/01-调研场景/01-竞品分析', activeMatch: '/01-调研场景/' },
       { text: '数据处理', link: '/02-数据处理场景/01-excel清洗', activeMatch: '/02-数据处理场景/' },
       { text: '进阶技巧', link: '/03-进阶技巧/01-skills', activeMatch: '/03-进阶技巧/' },
-      {
-        text: '更多',
-        items: [
-          { text: '安全红线', link: '/04-安全红线/01-数据安全' },
-          { text: '发布社区', link: '/05-发布社区/01-为什么要发布到社区' },
-          { text: '知识库建设', link: '/06-知识库建设/01-把碎片沉淀成Wiki' },
-          { text: 'FAQ', link: '/faq' },
-        ],
-      },
+      { text: '安全红线', link: '/04-安全红线/01-数据安全', activeMatch: '/04-安全红线/' },
+      { text: '发布社区', link: '/05-发布社区/01-为什么要发布到社区', activeMatch: '/05-发布社区/' },
+      { text: '知识库建设', link: '/06-知识库建设/01-把碎片沉淀成Wiki', activeMatch: '/06-知识库建设/' },
+      { text: 'FAQ', link: '/faq' },
     ],
 
     sidebar: {
