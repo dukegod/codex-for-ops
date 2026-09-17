@@ -144,7 +144,6 @@ export default defineConfig({
             },
             {
               text: '进阶玩法',
-              collapsed: true,
               items: [
                 { text: 'Codex 项目结构详解：解构 + 配置 + 优化', link: '/03-进阶技巧/05-codex项目结构' },
                 { text: 'Codex 与 Claude Code 项目结构对比', link: '/03-进阶技巧/06-codex与claude-code对比' },
