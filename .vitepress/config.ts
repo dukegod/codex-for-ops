@@ -16,7 +16,9 @@ const base = process.env.VITEPRESS_BASE ?? '/'
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Codex 运营手册',
-  titleTemplate: 'Codex 桌面端运营团队实战手册',
+  // titleTemplate 必须带 :title 占位符，否则每页 title 都是同一句静态文案，
+  // 浏览器标签页 / 搜索结果 / 分享卡片全都分不出是哪一章。
+  titleTemplate: ':title · Codex 运营手册',
   description: '面向运营团队的 Codex 桌面端使用指南 · 从入门到进阶',
   base,
 
@@ -177,6 +179,7 @@ export default defineConfig({
         {
           text: '发布社区',
           items: [
+            { text: '总览', link: '/05-发布社区/README' },
             { text: '为什么要发布到社区', link: '/05-发布社区/01-为什么要发布到社区' },
             { text: '资源整合：从散乱到结构化', link: '/05-发布社区/02-资源整合' },
             { text: '创建 Skill：把方法打包成可复用', link: '/05-发布社区/03-创建skill' },
@@ -191,7 +194,6 @@ export default defineConfig({
                 { text: '会议纪要 Skill 模板', link: '/05-发布社区/templates/meeting-summary-skill' },
               ],
             },
-            { text: '总览', link: '/05-发布社区/README' },
           ],
         },
       ],
@@ -226,7 +228,9 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/dukegod/codex-for-ops/edit/main/:path',
+      // :path 是相对 srcDir 的路径（srcDir = docs/），所以要补回 docs/ 前缀，
+      // 否则点「编辑此页」会跳到仓库根目录下的不存在的路径。
+      pattern: 'https://github.com/dukegod/codex-for-ops/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
 
