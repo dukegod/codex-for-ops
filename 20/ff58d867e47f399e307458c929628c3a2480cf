@@ -1,0 +1,16 @@
+README.md
+  h_a427b9af6cd304 63
+docs/public/favicon.svg
+  h_a427b9af6cd304 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "20ff58d867e47f399e307458c929628c3a2480cf",
+  "prompts": {},
+  "humans": {
+    "h_a427b9af6cd304": {
+      "author": "dukegod <dukegod@users.noreply.github.com>"
+    }
+  }
+}
