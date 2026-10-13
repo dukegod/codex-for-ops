@@ -187,7 +187,6 @@ export default defineConfig({
             { text: '完整案例：把周报技能发布出去', link: '/05-发布社区/05-完整案例' },
             {
               text: 'Skill 模板库',
-              collapsed: true,
               items: [
                 { text: '周报生成 Skill 模板', link: '/05-发布社区/templates/weekly-report-skill' },
                 { text: '竞品分析 Skill 模板', link: '/05-发布社区/templates/competitor-analysis-skill' },
